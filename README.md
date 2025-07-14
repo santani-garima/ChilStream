@@ -1,84 +1,83 @@
 # 🌊 ChillStream
 
-**ChillStream** is a real-time, full-stack language exchange and messaging platform designed for meaningful conversations and cultural connections. With powerful features like 1-on-1 and group video calls, instant reactions, themed UI, and secure chat — ChillStream brings people together like never before.
+ChillStream is a real-time, full-stack language exchange and messaging platform designed to spark meaningful conversations and cross-cultural friendships. With features like private and group video calls, live chat, reactions, and fully themed interfaces — ChillStream connects the world, one conversation at a time.
 
----
+🚀 Core Features
+🌐 Real-time messaging with live typing indicators, emojis, and instant reactions
 
-## 🚀 Features
+📹 1-on-1 and group video calls with screen sharing and optional call recording
 
-- 🌐 Real-time Messaging with typing indicators, emojis, and live reactions  
-- 📹 1-on-1 & Group Video Calls with Screen Sharing and Call Recording  
-- 🌍 Language Exchange Platform — Connect based on language goals  
-- 🎨 32 Unique UI Themes — Personalize your vibe  
-- 🔐 JWT Authentication and protected routes  
-- 🧠 Global State with Zustand  
-- ⚡ Optimized Data Fetching using TanStack Query  
-- 🛠️ Robust Error Handling (frontend + backend)  
-- 🏗️ Scalable Architecture powered by Stream  
-- 📦 Fully containerized and free deployment-ready  
-- ⏳ And much more...
+🌍 Language matching — find and chat with users learning or speaking your target language
 
----
+🎨 32 UI Themes — fully customizable user interface experience
 
-## 🧰 Tech Stack
+🔐 Secure JWT authentication with protected routes and role-based access
 
-| Frontend       | Backend     | State / Data          | Styling      |
-|----------------|-------------|------------------------|--------------|
-| React + Vite   | Express.js  | MongoDB + Mongoose     | TailwindCSS  |
-| Zustand        | JWT Auth    | TanStack Query         | Stream API   |
+⚡ Efficient data fetching using TanStack Query
 
----
+🧠 Global state management powered by Zustand
 
-## 🛠️ Setup & Installation
+📦 Fully containerized and ready for cloud deployment
 
-### 📦 Environment Variables
+🧯 Frontend and backend error boundaries and handling
 
-#### `.env` in `/backend`
-```env
+🏗️ Modular, scalable architecture using Stream API
+
+🧰 Tech Stack Overview
+🧠 Frontend	🔧 Backend	🔗 State & Data Layer	🎨 Styling & Media
+React + Vite	Node.js + Express	MongoDB + Mongoose	TailwindCSS
+Zustand	JWT Auth	TanStack Query	Stream Chat/Video API
+
+🛠️ Local Setup & Installation
+1️⃣ Backend .env Configuration (/backend/.env)
+env
+Copy code
 PORT=5001
 MONGO_URI=your_mongo_uri
 STEAM_API_KEY=your_stream_api_key
 STEAM_API_SECRET=your_stream_api_secret
 JWT_SECRET_KEY=your_jwt_secret
 NODE_ENV=development
-.env in /frontend
+2️⃣ Frontend .env Configuration (/frontend/.env)
 env
-Copy
-Edit
+Copy code
 VITE_STREAM_API_KEY=your_stream_api_key
-🔧 Run the Backend
+🚀 Running Locally
+🔧 Start the Backend
 bash
-Copy
-Edit
+Copy code
 cd backend
 npm install
 npm run dev
-💻 Run the Frontend
+💻 Start the Frontend
 bash
-Copy
-Edit
+Copy code
 cd frontend
 npm install
 npm run dev
-💡 Highlights
-✨ Fully themed user experience — choose from 32 unique looks
+✨ Project Highlights
+🎨 Fully themed user interface — choose from 32 custom looks
 
-🗣️ Discover & connect with language partners across the globe
+🌍 Connect globally based on language goals & native fluency
 
-🔒 Secure login, protected dashboards, and user-based routing
+🔒 Secure login system and user-specific routing
 
-🧑‍🤝‍🧑 Gang-style "Friend Requests" system to form your crew
+🧑‍🤝‍🧑 Friend Requests, crew-building, and language partners
 
-🛠️ Modular and scalable codebase for production-ready builds
+🧱 Modular, scalable architecture designed for production use
+
+🖼️ Media support, call recording, and screen sharing built-in
 
 📸 Sneak Peek
-Coming soon...
+📷 Demo & screenshots coming soon...
 
 📄 License
-This project is licensed under the MIT License.
+Licensed under the MIT License.
 
 🙌 Contribute
-Pull requests, feature ideas, and collaborations are welcome!
+We welcome pull requests, feature suggestions, and open-source collaborations.
+Feel free to fork and make it your own!
 
-💬 Built by
-@codingkarishma – with passion for meaningful connections & tech that vibes.
+💬 Created by
+@santani-garima — with passion for meaningful connections & tech that vibes.
+
